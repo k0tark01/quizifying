@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Quiz Interaction with GLTF Model</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="quiz">
+        <h2>Quiz</h2>
+        <p id="question">What is the largest ocean on Earth?</p>
+        <input id="answerInput" type="text" placeholder="Enter your answer" />
+        <button id="submitButton">Submit</button>
+        <p id="feedback" style="color: green;"></p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three/examples/js/controls/OrbitControls.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
